@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Website</title>
+    <!-- bootstrap CSS links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- end link -->
+</head>
+
+<body>
+    <!-- <section height="500px"> -->
+    <section>
+        <!-- bg-dark -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+            <a class="navbar-brand mx-5 fs-2 text-primary fw-bold " href="">BOOTS WEB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mx-5 ">
+                    <li class="nav-item fs-3 text-uppercase fw-bold"><a class="nav-link text-primary " href="">Home</a>
+                    </li>
+                    <li class="nav-item fs-3 text-uppercase fw-bold"><a class="nav-link text-primary" href="">About</a>
+                    </li>
+                    <li class="nav-item fs-3 text-uppercase fw-bold"><a class="nav-link text-primary"
+                            href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="carouselExampleControls" class="carousel slide ">
+            <div class="carousel-inner ">
+                <div class="carousel-item active "
+                    style="background:no-repeat center center scoll; height:100vh; min-height: 300px; background-size:cover;">
+                    <img src="/images/9.jpg " class="d-block w-100 opacity-75" loading="lazy" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h5 class="fs-1 text-primary mt-1 fw-bold">Game Development</h5>
+                        <p class="w-75 m-auto fs-3 mb-3 my-3 text-dark fw-bold">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit.
+                            Error, quis? Consequuntur possimus ut nostrum facere?</p>
+                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill fw-bold">READ
+                            MORE</button>
+                    </div>
+                </div>
+                <!-- img 2 -->
+                <div class="carousel-item "
+                    style="background:no-repeat center center scoll; height:100vh; min-height: 300px; background-size:cover;">
+                    <img src="/images/10.jpg " class="d-block w-100 opacity-75" loading="lazy" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h5 class="fs-1 text-primary fw-bold">Web Development</h5>
+                        <p class="w-75 m-auto fs-3 mb-3 my-3  text-dark fw-bold ">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit.
+                            Error, quis? Consequuntur possimus ut nostrum facere?</p>
+                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill fw-bold">READ
+                            MORE</button>
+                    </div>
+                </div>
+                <!-- img 3 -->
+                <div class="carousel-item "
+                    style="background:no-repeat center center scoll; height:100vh; min-height: 300px; background-size:cover;">
+                    <img src="/images/5.jpg" class="d-block w-100 opacity-75" loading="lazy" alt="...">
+                    <div class="carousel-caption d-none d-md-block  mb-5">
+                        <h5 class="fs-1 text-primary fw-bold">UX / UI Design</h5>
+                        <p class="w-75 m-auto fs-3 mb-3 my-3  text-dark fw-bold ">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit.
+                            Error, quis? Consequuntur possimus ut nostrum facere?</p>
+                        <button type="button" class="btn btn-outline-primary btn-lg rounded-pill fw-bold">READ
+                            MORE</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon  primary" aria-hidden="true"></span>
+                <span class="visually-hidden  primary">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid my-3">
+            <div class="text-center ">
+                <h1 class="text-primary ">Well come To Over Website</h1>
+
+                <p class="w-50 m-auto lh-lg  my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                    voluptates cumque id expedita.
+                    Repellat quasi autem in natus labore id, quae laborum voluptates assumenda iusto saepe
+                    exercitationem,
+                    doloribus neque magnam ipsam nemo voluptatum, voluptatem porro. Enim voluptates cumque id expedita.
+                    Repellat quasi autem in natus labore id, quae laborum voluptates assumenda iusto saepe
+                    exercitationem,
+                    doloribus neque magnam ipsam nemo voluptatum, voluptatem porro</p>
+                <button type="button" class="btn btn-outline-primary btn-lg rounded-pill">READ MORE</button>
+            </div>
+        </div>
+
+
+        <!-- mission section -->
+        <div class="container-fluid my-3 text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 bg-primary text-white">
+                    <i class="fa-solid fa-clock-rotate-left fs-1 my-3"></i>
+                    <h1>Our Story</h1>
+                    <p class="w-100 m-auto my-3 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                        voluptates cumque id expedita.
+                        Repellat quasi autem in natus labore id, quae laborum voluptates assumenda iusto saepe
+                        exercitationem,
+                        doloribus neque magnam ipsam nemo voluptatum, voluptatem porro. Enim voluptates cumque id
+                        expedita.</p>
+
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-4 bg-dark text-white">
+                    <i class="fa-solid fa-bullseye fs-1 my-3"></i>
+                    <h1 class="text-primary">Our Mission</h1>
+                    <p class="w-100 m-auto my-3  mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                        voluptates cumque id expedita.
+                        Repellat quasi autem in natus labore id, quae laborum voluptates assumenda iusto saepe
+                        exercitationem,
+                        doloribus neque magnam ipsam nemo voluptatum, voluptatem porro. Enim voluptates cumque id
+                        expedita.</p>
+
+                </div>
+                <!--3-->
+                <div class="col-lg-4 bg-primary text-white">
+                    <i class="fa-solid fa-eye-low-vision fs-1 my-3"></i>
+                    <h1>Our Vision</h1>
+                    <p class="w-100 m-auto my-3  mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                        voluptates cumque id expedita.
+                        Repellat quasi autem in natus labore id, quae laborum voluptates assumenda iusto saepe
+                        exercitationem,
+                        doloribus neque magnam ipsam nemo voluptatum, voluptatem porro. Enim voluptates cumque id
+                        expedita.</p>
+                </div>
+            </div>
+
+            <!-- our servies -->
+            <div class="container text-center mt-5 mb-3">
+                <h1 class="text-primary ">Our Services</h1>
+                <p class="w-75 m-auto lh-lg  my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Enim voluptates cumque id expedita. Repellat quasi autemin natus labore id, qu
+                    laborum voluptates assumenda Repellat quasi autemin natus labore id,,</p>
+                <div class="row ">
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/web-design.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        Web Design</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/coding.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        Web Development</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!--3 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/game-development.png" class="position-relative" width="50px"
+                                    height="50px" loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        Game Developmentt</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/app-development.png" class="position-relative" width="50px"
+                                    height="50px" loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        App Development</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/theme.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100 ">
+                                        Theme Development</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/publishing.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        Desktop Application</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/wordpress.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        WordPress Theme</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!--8 -->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/wordpress-plugin.png" class="position-relative" width="50px"
+                                    loading="lazy" height="50px" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        WordPress Plugin</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+                    <!--9-->
+                    <div class="col-lg-4  col-md-6">
+                        <div class="bg-light m-1  shadow p-3 mb-5 bg-body rounded ">
+                            <div class="card  border-0  w-50">
+                                <img src="/icons/web-design.png" class="position-relative" width="50px" height="50px"
+                                    loading="lazy" alt="...">
+                                <div class="float-end">
+                                    <h5 class="position-absolute top-50 start-100 translate-middle w-100">
+                                        Support & IT</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- end -->
+
+
+            <!-- Accesivment -->
+            <div class="container-fluid text-center bg-primary text-white">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <i class="fa-solid fa-calendar fs-1 my-3"></i>
+                        <h2 class="font-weight-light fs-1 ">12+</h2>
+                        <p class="text-uppercase fs-3">
+                            Year of Experince
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="fa-regular fa-circle-check fs-1 my-3"></i>
+                        <h2 class="font-weight-light fs-1 ">999+</h2>
+                        <p class="text-uppercase fs-3">
+                            Complete project
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="fa-solid fa-person fs-1 my-3"></i>
+                        <h2 class="font-weight-light fs-1 ">780+</h2>
+                        <p class="text-uppercase fs-3">
+                            Total Clients
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="fa-solid fa-award fs-1 my-3"></i>
+                        <h2 class="font-weight-light fs-1 ">15+</h2>
+                        <p class="text-uppercase fs-3">
+                            Award Won
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end -->
+
+            <!-- portfolio section  -->
+            <!-- -->
+            <div class="container-fluid text-center mt-5 mb-3 ">
+
+                <h1 class="text-primary ">Our Portfolio</h1>
+                <p class="w-75 m-auto lh-lg  my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Enim voluptates cumque id expedita. Repellat quasi autemin natus labore id, qu
+                    laborum voluptates assumenda Repellat quasi autemin natus labore id,,</p>
+                <div class="text-uppercase d-inline-flex p-1 text-primary ">
+                    <p class="p-2 fw-bold text-decoration-underline"><span>All</span></p>
+                    <p class="p-2">Web development</p>
+                    <p class="p-2">Game development</p>
+                    <p class="p-2">App development</p>
+                </div>
+                <div class="row container w-75 m-auto">
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/1.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--2-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/2.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--3-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/3.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--4-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/4.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--5-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/5.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--6-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/6.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--7-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/7.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--8-->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" my-3 ">
+                            <img src="/images/8.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <!--9-->
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class=" my-3 ">
+                            <img src="/images/9.jpg" class="rounded" width="400" height="200" loading="lazy" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="bg-dark text-white pt-5 pb-4">
+                <div class="container text-center text-md-left">
+                    <div class="row text-center text-md-left ">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h1 class="text-uppercase mb-4 font-weight-bold text-primary">Portfolio</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae vitae qui minus
+                                dignissimos quas quibusdam.</p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Servies</h5>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">Web Development</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">Game Development</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">Desktop Application</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">WordPress Theme</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">WordPress Plugin</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">Web Design</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Language</h5>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">Html</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">CSS</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">JavaScript</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">PhP</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-white" style="text-decoration:none;">React framework</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contact</h5>
+
+                            <p>
+                                <i class="fas fa-home m-2 "> </i>Quetta city
+                            </p>
+                            <p>
+                                <i class="fas fa-phone m-2"> </i>123-456-789
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-envelope m-2"> </i>abc@gami.com
+                            </p>
+                        </div>
+
+
+
+                        <div class="col-md-5 col-lg-4">
+                            <div class="text-cneter text-md-right">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-primary fs-2"
+                                            style="font-size: 23px;">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-primary fs-2"
+                                            style="font-size: 23px;">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-primary fs-2"
+                                            style="font-size: 23px;">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="" class="btn-floating btn-sm text-primary fs-2"
+                                            style="font-size: 23px;">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+            <!-- end -->
+
+        </div>
+        <!-- end -->
+    </section>
+
+    <!-- bootstrap JavaScript links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- end link -->
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/df88ca4b67.js" crossorigin="anonymous"></script>
+    <!-- end -->
+</body>
+
+</html>
